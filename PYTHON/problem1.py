@@ -1,3 +1,5 @@
+#Pay computation problem
+
 sh = input('Enter Hours:') #Enter no. of hours worked
 sr = input('Enter rate:') #Enter rate of pay per hour
 fh = float(sh) #changes hour type into float
