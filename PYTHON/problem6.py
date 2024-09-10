@@ -1,3 +1,5 @@
+#Use of break, continue, try and except concepts
+
 num = 0
 tot = 0.0
 while True:
