@@ -1,3 +1,5 @@
+#Pay computation Using Function
+
 def computepay(hours, rate):
     if hours > 40:
         pay = 40 * fr + (fh - 40) * 1.5* fr
