@@ -1,3 +1,5 @@
+ #Use of try and except problem
+
 sh = input('Enter Hours:') #Enter no. of hours worked
 sr = input('Enter rate:') #Enter rate of pay per hour
 try:
