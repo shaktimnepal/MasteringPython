@@ -1,21 +1,22 @@
 Problem statement:
 
-Find Key with Maximum Value
-Write a Python function to find the key with the maximum value in a dictionary.
+Invert a Dictionary
+Write a Python function to invert a dictionary (swap keys and values).
 
 Solution:
+def dict_inverter(input):
+    inverted_dict = {}
+    for x in input:
+        y = input[x]
+        inverted_dict[y] = x
+    return inverted_dict
 
-def key_with_max_value(input):
-    max_value = 0
-    for x,y in input.items():
-        if y > max_value:
-            max_value = y
-            max_key = x
-    return max_key
 
-input = {'a': 10, 'b': 20, 'c': 5}
-output = key_with_max_value(input)
+input = {'a': 1, 'b': 2, 'c': 3}
+output = dict_inverter(input)
 print(output)
 
-Sample Input: {'a': 10, 'b': 20, 'c': 5}
-Expected Output: 'b'
+Sample Input: {'a': 1, 'b': 2, 'c': 3}
+Expected Output: {1: 'a', 2: 'b', 3: 'c'}
+
+
