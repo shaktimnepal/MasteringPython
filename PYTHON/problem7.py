@@ -1,6 +1,6 @@
 Problem statement:
 
-Write a Python function that counts the frequency of each word in a given paragraph. 
+Write a Python Function that counts the frequency of each word in a given paragraph. 
 The function should return the result as a dictionary. 
 Additionally, provide a way to retrieve the most frequently occurring word(s) from this dictionary
 
